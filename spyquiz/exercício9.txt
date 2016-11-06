@@ -1,4 +1,0 @@
-Descriptograde a senha em base64: 
-
-Encode:   YmFzZTY0LWRlY29kZS1zdWNjZXNzZnVs
-Decode:   base64-decode-successful
