@@ -1,0 +1,6 @@
+Tabela ASCII - Dec
+
+| (35) | (83) | (112) | (121) | (65) | (83) | (67) | (73) | (73) |
+| #    | S    | p     | y     | A    | S    | C    | I    | I    |
+
+Link da tabela = http://java.meritcampus.com/core-java-topics/images/Java%20Charecters.png
