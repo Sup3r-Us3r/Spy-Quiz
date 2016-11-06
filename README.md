@@ -30,7 +30,7 @@
 
 ### Sobre o projeto.
 
-> O Spy-Quiz tem por finalidade, ajudar os entusiatas e estudante de tecnologia da informação, com testes de penetration testing no próprio terminal, ele foi desenvolvido em [Python 3.5](https://www.python.org/) e o Sistema utilizado foi o [Arch Linux](https://www.archlinux.org)
+> O Spy-Quiz tem por finalidade, ajudar os entusiatas e estudante de tecnologia da informação, com desafios para você resolver e passar para o próximo nível e o mais legal é que tudo roda no próprio terminal, ele foi desenvolvido em [Python 3.5](https://www.python.org/) e o Sistema utilizado foi o [Arch Linux](https://www.archlinux.org)
 
 * Desenvolvedores [Sup3r-Us3r](https://github.com/Sup3r-Us3r) & [M4GN4S3C](https://magnasec.github.io/)
 
