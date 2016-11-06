@@ -49,4 +49,4 @@ $ ./spyquiz.py
 > Requer python3.5
 
 
-[<img alt="play-video" width="30" src="https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/play-video.png">](https://www.youtube.com/watch?v=T0mtecBoh70)
+# Clique no play e assista o vídeo: [<img alt="play-video" width="23" src="https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/play-video.png">](https://www.youtube.com/watch?v=T0mtecBoh70)
