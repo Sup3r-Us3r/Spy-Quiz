@@ -47,3 +47,6 @@ Para usar.
 $ ./spyquiz.py
 ```
 > Requer python3.5
+
+
+[<img alt="play-video" width="30" src="https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/play-video.png">](https://www.youtube.com/watch?v=T0mtecBoh70)
