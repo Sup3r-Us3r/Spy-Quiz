@@ -23,9 +23,9 @@ sleep(3)
 
 
 try:
-    url = "http://www.100security.com.br/wargame/backtrack.php"
+    url = "https://sup3r-us3r.github.io/files/niveis/nivel2.txt"
     os.system("clear")
-    while True and not url.startswith("http://"):
+    while True and not url.startswith("https://"):
         os.system("clear")
     else:
         print("\033[31mAguarde\033[1;m\033[32m...\033[1;m")
