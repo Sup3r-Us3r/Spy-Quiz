@@ -982,7 +982,7 @@ def Bloco20():
 			Bloco20()
 	elif opcao1 == "2":
 		os.system(Limpar)
-		FimDoDesafio
+		FimDoDesafio()
 	elif opcao1 == "3":
 		os.system(Sair)
 	else:
