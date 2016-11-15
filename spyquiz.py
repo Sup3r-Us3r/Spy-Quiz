@@ -95,6 +95,7 @@ def MudarPara():
 \033[31m18\033[1;m) Nível - #18: X da questão
 \033[31m19\033[1;m) Nível - #19: Se vire
 \033[31m20\033[1;m) Nível - #20: Vasculhando
+\033[31m21\033[1;m) Nível - #21: Arabica2rs
 
 \033[31mq\033[1;m) Voltar
 """)
@@ -139,6 +140,8 @@ def MudarPara():
 		Bloco19()
 	elif opcao1 == "20":
 		Bloco20()
+	elif opcao1 == "21":
+		Bloco21()
 	elif opcao1 == "q":
 		Menu1()
 	else:
@@ -970,8 +973,7 @@ def Bloco20():
 			if senha == VSenha2:
 				print("\n\033[1;32m[*] Resposta correta!\033[1;m\n")
 				input("\n\033[1;36mPressione ENTER para continuar...\033[1;m ")
-				os.system(Limpar)
-				FimDoDesafio()
+				Bloco21()
 			else:
 				print("[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para voltar...\033[1;m ")
@@ -981,6 +983,43 @@ def Bloco20():
 			input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
 			Bloco20()
 	elif opcao1 == "2":
+		Bloco21()
+	elif opcao1 == "3":
+		os.system(Sair)
+	else:
+		ComandoNaoEncontrado()
+		input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
+		Bloco20()
+
+def Bloco21():
+	arabica2rs = "taquente-taquente"
+	Apresentacao()
+	print('''
+[\033[1;32m*\033[1;m] Nível - #21: Arabica2rs
+ _______________________________________________________________________
+|                                                                       |
+|                             Ache a senha...                           |
+|                                                                       |
+|      ىﺿ أﺹ طبنرغﺿ أﺹ ﺿ ی ا ﺿىة ﺿ اىﺿأﺹحغ كز بن ح ب ﻑحغكزب ن ح بش      |
+|_______________________________________________________________________|
+
+\033[31m1\033[1;m) Responder
+\033[31m2\033[1;m) Pular
+\033[31m3\033[1;m) Sair
+''')
+	opcao1 = input("\033[1;36mOpção:\033[1;m ")
+	if opcao1 == "1":
+		responder = input("\n\033[1;36mResposta:\033[1;m ")
+		if responder == arabica2rs:
+			print("\n\033[1;32m[*] Resposta correta!\033[1;m\n")
+			input("\n\033[1;36mPressione ENTER para continuar...\033[1;m ")
+			os.system(Limpar)
+			FimDoDesafio()
+		else:
+			print("[\033[1;91m!\033[1;m] Resposta incorreta.")
+			input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
+			Bloco21()
+	elif opcao1 == "2":
 		os.system(Limpar)
 		FimDoDesafio()
 	elif opcao1 == "3":
@@ -988,7 +1027,7 @@ def Bloco20():
 	else:
 		ComandoNaoEncontrado()
 		input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
-		Bloco20()
+		Bloco21()
 
 def FimDoDesafio():
 	print(''' \033[31m
