@@ -217,7 +217,7 @@ def Bloco1():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "5950c237124755f423d01812a1dbe8281513adc0cfe3fa0a0bc984cefb381f7e13f91e8360716ffe78d77aa447c17c98ee77e23e495c496b0c8b8167cb177b9b" #spyquiz
+			q = "5950c237124755f423d01812a1dbe8281513adc0cfe3fa0a0bc984cefb381f7e13f91e8360716ffe78d77aa447c17c98ee77e23e495c496b0c8b8167cb177b9b"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -258,7 +258,7 @@ def Bloco2():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "3250d88f8bd55e62ae3f769b9bdce1854bac2f645da0a982e6c68e2884c87b2b7d0bf62da7c3b21aa4d426d6d5223c111646f05f4fbdc7a4b6fafe1b6ad25823" #Penetration Tester's
+			q = "3250d88f8bd55e62ae3f769b9bdce1854bac2f645da0a982e6c68e2884c87b2b7d0bf62da7c3b21aa4d426d6d5223c111646f05f4fbdc7a4b6fafe1b6ad25823"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -303,7 +303,7 @@ Caso tenha instalado, prossiga, caso não tenha vá para a opção 3
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "b3fb9eb1b2749efa02c7d4d94df6f6ee7d2f7492e0482c46e2ee2716fb41de4bb3f4e9ab9e5bbe26ec9b2f34b0801a151e761063599c8904021b7328881e15b8" #HelpHelp!
+			q = "b3fb9eb1b2749efa02c7d4d94df6f6ee7d2f7492e0482c46e2ee2716fb41de4bb3f4e9ab9e5bbe26ec9b2f34b0801a151e761063599c8904021b7328881e15b8"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -349,7 +349,7 @@ def Bloco4():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "0ceeb7a66858efeb21bfb43f5b44d79420d443c28b8cc48c522c981e5ac98d47202add62649719d1307c5baa44a6de4c4b6bcaeb1875a7bd94854b1810125502" #metasploit.php
+			q = "0ceeb7a66858efeb21bfb43f5b44d79420d443c28b8cc48c522c981e5ac98d47202add62649719d1307c5baa44a6de4c4b6bcaeb1875a7bd94854b1810125502"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -492,8 +492,8 @@ def Bloco6():
 			senha = input("\033[1;32m[*] Senha: \033[1;m")
 			senha = hashlib.sha512(senha.encode('utf-8'))
 			senha = senha.hexdigest()
-			q1 = "5667ae23cdbefe166f2e06d442375516cfaaad6aa1363f941309ec1aa1d130bfb33a32a5419a9093ab037881016f66c6796f16f4a2d5be6fb647aa9a56dec303" #tecnologia
-			q2 = "985aa195c09fb7d64a4bb24cfe51fb1f13ebc444c494e765ee99d6c3ef46557c757787f8f5a6e0260d2e0e846d263fbfbe1311c884bb0bf9792f8778a4434327" #hacker
+			q1 = "5667ae23cdbefe166f2e06d442375516cfaaad6aa1363f941309ec1aa1d130bfb33a32a5419a9093ab037881016f66c6796f16f4a2d5be6fb647aa9a56dec303"
+			q2 = "985aa195c09fb7d64a4bb24cfe51fb1f13ebc444c494e765ee99d6c3ef46557c757787f8f5a6e0260d2e0e846d263fbfbe1311c884bb0bf9792f8778a4434327"
 			if login != q1 or senha != q2:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -534,7 +534,7 @@ def Bloco7():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "3f2b93a9c8ad86cd39d872f6d927fa608f5be016260216979c9d1e73750750b15578f2d2547f98f2606f975477a0dcace08e461157375542c0b1e9bd8a0808c8" #spyquizestenografia
+			q = "3f2b93a9c8ad86cd39d872f6d927fa608f5be016260216979c9d1e73750750b15578f2d2547f98f2606f975477a0dcace08e461157375542c0b1e9bd8a0808c8"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -574,7 +574,7 @@ def Bloco8():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "cd0eca5dbd9e4d6534854807b48aa1a3acb254031756ce281194228d3c6d892058f150d24b2e4cd643248ca3bb41a136da2109245dae985bd126016759c065db" # #SpyASCII
+			q = "cd0eca5dbd9e4d6534854807b48aa1a3acb254031756ce281194228d3c6d892058f150d24b2e4cd643248ca3bb41a136da2109245dae985bd126016759c065db"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -612,7 +612,7 @@ def Bloco9():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "1d427a35aedcdc4fcf5bb729d46a00c3ce5d7832640fcfe70d97a84dc22fc2d53e35571a8fbf6085941e73b5fbd7af06d7c289a35fac59f1d62374cc442e3358" #base64-decode-successful
+			q = "1d427a35aedcdc4fcf5bb729d46a00c3ce5d7832640fcfe70d97a84dc22fc2d53e35571a8fbf6085941e73b5fbd7af06d7c289a35fac59f1d62374cc442e3358"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -651,7 +651,7 @@ def Bloco10():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "a816208946c8aa49ab6f60afbd372a12ca4d95ac58f22edcb21bc87ad19186569d31610086b626266b18d2426d2705651731771353d8c0e0967955cddc2adc9a" #difficult?
+			q = "a816208946c8aa49ab6f60afbd372a12ca4d95ac58f22edcb21bc87ad19186569d31610086b626266b18d2426d2705651731771353d8c0e0967955cddc2adc9a"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -691,7 +691,7 @@ def Bloco11():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "211824f7f2736ce7e4acfa07649561188fbd0c39de4f5fd20483c6bb15f327146086b62edefb8e7213b2a2eda07720786b4587e97856c22904f7f175b1e40fbe" #AO44F
+			q = "211824f7f2736ce7e4acfa07649561188fbd0c39de4f5fd20483c6bb15f327146086b62edefb8e7213b2a2eda07720786b4587e97856c22904f7f175b1e40fbe"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -735,7 +735,7 @@ def Bloco12():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "a81af4e6fada061924e905358091bca96af72705a2177b78dda9032b75b1668aa1dd09ae0d986c33bd594102a2241933a9594268717869d3d1b0730c52866faf" #6608
+			q = "a81af4e6fada061924e905358091bca96af72705a2177b78dda9032b75b1668aa1dd09ae0d986c33bd594102a2241933a9594268717869d3d1b0730c52866faf"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -773,7 +773,7 @@ def Bloco13():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "e59d0329d6c9e23abc8b287107ddc9281defff1af776133ed618859da59b63c943b019f7603d8344d8eb2d36851234a59c75afa70c1d317fd7676c22e3f5c71f" #01100101 01101101 01100010 01101001 01101110 01100001 01110010 01101001 01101111
+			q = "e59d0329d6c9e23abc8b287107ddc9281defff1af776133ed618859da59b63c943b019f7603d8344d8eb2d36851234a59c75afa70c1d317fd7676c22e3f5c71f"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -811,7 +811,7 @@ def Bloco14():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "73229a1024cec29476fd179cb89b1abf74d0b6cc028976a1a62cd9477f8bcdb6fca37fa428c5558ecf5218f112cb7ff2b05833c88f4a736a3f8a531a640753ad" #157 143 164 141 154 145 165 155 141 144 154 303 247
+			q = "73229a1024cec29476fd179cb89b1abf74d0b6cc028976a1a62cd9477f8bcdb6fca37fa428c5558ecf5218f112cb7ff2b05833c88f4a736a3f8a531a640753ad"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -849,7 +849,7 @@ def Bloco15():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "a5614ff46a800ce96fe21c00173a12006a92653088fc0d354df738da404ddacda51d73d20a135194fafdfa7c9f2e119b0dffe68337733b0bf54838558302dd7e" #74 61 5f 61 63 68 61 6e 64 6f 5f 66 61 63 69 6c 5f 6e 65 5f 6d 6f 6c 65 71 75 65
+			q = "a5614ff46a800ce96fe21c00173a12006a92653088fc0d354df738da404ddacda51d73d20a135194fafdfa7c9f2e119b0dffe68337733b0bf54838558302dd7e"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -887,7 +887,7 @@ def Bloco16():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "c620998bead50e43a9298325a6fa11518afe66035741b98e34b85d967750f7b12c0d710248cf40943906bb5c0b225fb4b959c59f050f975feadfa3ba9e206df1" #Essa ferramenta vai te ajudar muito ainda - espere so para voce ver
+			q = "c620998bead50e43a9298325a6fa11518afe66035741b98e34b85d967750f7b12c0d710248cf40943906bb5c0b225fb4b959c59f050f975feadfa3ba9e206df1"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -930,7 +930,7 @@ def Bloco17():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "4df1510bbaab42cccd08bed15a439bd1baf1aee48dbd5b7165bf4de3e90636778fef155a078cf9b3885c84d0cd2d51a274476f47a2d97017467ee4eca6167c76" #Elliot
+			q = "4df1510bbaab42cccd08bed15a439bd1baf1aee48dbd5b7165bf4de3e90636778fef155a078cf9b3885c84d0cd2d51a274476f47a2d97017467ee4eca6167c76"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -970,7 +970,7 @@ def Bloco18():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "84b214c42250dbcb999167a5aa9f240d805655a8fca7574d7c7e18682e85b0ad0e643ca5a7c3e18871259b69a85519a2d62b9a7d9edc2105139b296bcbe9effe" #-35831733.9519
+			q = "84b214c42250dbcb999167a5aa9f240d805655a8fca7574d7c7e18682e85b0ad0e643ca5a7c3e18871259b69a85519a2d62b9a7d9edc2105139b296bcbe9effe"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -1011,8 +1011,8 @@ def Bloco19():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q1 = "f30c7b68f3b8624dc10080a80f1dde2e68643bf7d47dc75ec71e5980178b91ffa74ba53e1c0b26bbacc8130ca594787a697ba2eb33d748db89df78aa941d1d79" #MORSECODENEXTLEVEL
-			q2 = "b437f52e979bb57f95f5a67b68d604e6b83d972ba476f95ea0a483c0631ccfa535ca3761cb88f427b5cbcae902401c33d3f68f27b1c8d80523f0fd57fcc30302" #morsecodenextlevel
+			q1 = "f30c7b68f3b8624dc10080a80f1dde2e68643bf7d47dc75ec71e5980178b91ffa74ba53e1c0b26bbacc8130ca594787a697ba2eb33d748db89df78aa941d1d79"
+			q2 = "b437f52e979bb57f95f5a67b68d604e6b83d972ba476f95ea0a483c0631ccfa535ca3761cb88f427b5cbcae902401c33d3f68f27b1c8d80523f0fd57fcc30302"
 			if p != q1 and p != q2:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -1059,8 +1059,8 @@ def Bloco20():
 			senha = input("\033[1;32m[*] Senha: \033[1;m")
 			senha = hashlib.sha512(senha.encode('utf-8'))
 			senha = senha.hexdigest()
-			q1 = "c7809fd363e6dc44fb735fd086ea623fae16762c79d4c810e5d9fc1d7514b5d1ed1f646c042f3cd131fe90cd774b029e7a64904a969cd77c0dcb9e58e4134630" #Spy:D
-			q2 = "497fe595951961337b77f1188333992ea20fe1c0faf1fdfe484613e0462b343fdea3d3752489b1392cff0e38310aa9133c4de9c2651bef731fec59a8a2f0a107" #Quiz!
+			q1 = "c7809fd363e6dc44fb735fd086ea623fae16762c79d4c810e5d9fc1d7514b5d1ed1f646c042f3cd131fe90cd774b029e7a64904a969cd77c0dcb9e58e4134630"
+			q2 = "497fe595951961337b77f1188333992ea20fe1c0faf1fdfe484613e0462b343fdea3d3752489b1392cff0e38310aa9133c4de9c2651bef731fec59a8a2f0a107"
 			if login != q1 or senha != q2:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -1100,7 +1100,7 @@ def Bloco21():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "3ff7b5f3519791e03cbfde2c667189e32b5a1de1df7781dc6a99110621b311f94a0b4fa6c3456e5e60af911fc1d6da18a7e09cf6606a7e4f6ffb8b80c39eae63" #taquente-taquente
+			q = "3ff7b5f3519791e03cbfde2c667189e32b5a1de1df7781dc6a99110621b311f94a0b4fa6c3456e5e60af911fc1d6da18a7e09cf6606a7e4f6ffb8b80c39eae63"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -1138,7 +1138,7 @@ def Bloco22():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "7986ea8b0a90a4d804bdf5be1dbf20f197594bd265605d0c6122ffc83e365ff93b2bf50532380a1ffd0db37b03ea30f1500b7bc19cb90d5915996cebeb8ab4fc" #Mr.robot
+			q = "7986ea8b0a90a4d804bdf5be1dbf20f197594bd265605d0c6122ffc83e365ff93b2bf50532380a1ffd0db37b03ea30f1500b7bc19cb90d5915996cebeb8ab4fc"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
@@ -1178,7 +1178,7 @@ def Bloco23():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "b3efba35d9f9249c2d9bd51311ac60a7d1c9cd46c6aef60b03798f250ae708dfea06ab31d323e274380f5fe7138d01dc651a7bc95cf8d0599fb188e872c88c70" #sup3r-us3r
+			q = "b3efba35d9f9249c2d9bd51311ac60a7d1c9cd46c6aef60b03798f250ae708dfea06ab31d323e274380f5fe7138d01dc651a7bc95cf8d0599fb188e872c88c70"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
