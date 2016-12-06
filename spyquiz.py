@@ -1185,9 +1185,11 @@ def Bloco23():
 				Bloco23()
 		print("\n\033[1;32m[*] Resposta correta!\033[1;m\n")
 		input("\n\033[1;36mPressione ENTER para continuar...\033[1;m ")
-		Bloco24()
+		os.system(Limpar)
+		FimDoDesafio
 	elif opcao1 == "2":
-		Bloco24()
+		os.system(Limpar)
+		FimDoDesafio
 	elif opcao1 == "3":
 		os.system(Sair)
 	else:
