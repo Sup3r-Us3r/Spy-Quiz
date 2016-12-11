@@ -12,22 +12,22 @@
 ###  Development and Conclusion screenshots.
 
 `Spyquiz.py `
-![Spyquiz.py][screenshot6]
+![Spyquiz.py][screenshot1]
 
 `Url.py `
-![Url.py][screenshot7]
+![Url.py][screenshot2]
 
 `Main `
-![Início][screenshot8]
+![Início][screenshot3]
 
 `About `
-![Sobre][screenshot9]
+![Sobre][screenshot4]
 
 
-[screenshot6]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A37%3A32.png
-[screenshot7]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A37%3A35.png
-[screenshot8]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A33%3A21.png
-[screenshot9]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A33%3A32.png
+[screenshot1]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A37%3A32.png
+[screenshot2]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A37%3A35.png
+[screenshot3]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A33%3A21.png
+[screenshot4]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A33%3A32.png
 
 ###  About the project.
 
