@@ -5,8 +5,8 @@
 
 ### -> See more at:
 
-* [Python](https://www.python.org/) 
-* [Arch Linux](https://www.archlinux.org/) 
+* [Python](https://www.python.org/)
+* [Arch Linux](https://www.archlinux.org/)
 
 
 ### -> Development and Conclusion screenshots.
