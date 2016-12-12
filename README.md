@@ -1,4 +1,4 @@
-# Spy-Quiz ` us3r@spyquiz ~ : `
+# Spy-Quiz `us3r@spyquiz ~ : `
 
 <img alt="python-logo" width="180" src="https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/python-logo.png">
 
