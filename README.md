@@ -41,13 +41,13 @@
 $ sudo pacman -S git
 $ git clone https://github.com/Sup3r-Us3r/Spy-Quiz.git
 $ cd Spy-Quiz
-$ sudo chmod +x spyquiz.py && sudo chmod +x url.py
+$ sudo chmod +x spyquiz.py && sudo chmod +x url.py // Or give permissions using the of spyquiz menu
 ```
 To use.
 ```sh
 $ ./spyquiz.py
 ```
-> Dependency python3.5
+> Dependency `python3.5`, `curl`, `lolcat`, `sl` You can install using the spyquiz menu
 
 
 # Click [<img alt="play-video" width="23" src="https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/play-video.png">](https://www.youtube.com/watch?v=T0mtecBoh70) and watch the demo video:
