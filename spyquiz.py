@@ -210,14 +210,24 @@ def Instalacao():
 		print("\n\n[\033[1;32m*\033[1;m] Instalado com sucesso.")
 		input("\n\033[1;36mPressione ENTER para voltar...\033[1;m ")
 		Menu1()
+	def FedoraDerivados():
+		print("\n[\033[1;32m*\033[1;m] Aguarde em quanto instalamos as dependências...\n")
+		sleep(3)
+		os.system("sudo dnf install -y sl curl")
+		print("")
+		os.system("gem install lolcat")
+		print("\n\n[\033[1;32m*\033[1;m] Instalado com sucesso.")
+		input("\n\033[1;36mPressione ENTER para voltar...\033[1;m ")
+		Menu1()
 	Apresentacao()
 	print('''
 [\033[1;32m*\033[1;m] Escolha sua distribuição atual para a instalação dos requisítos.
 
 \033[31m1\033[1;m) Arch Linux & Derivados
 \033[31m2\033[1;m) Debian & Derivados
-\033[31m3\033[1;m) Voltar
-\033[31m4\033[1;m) Sair
+\033[31m3\033[1;m) Fedora & Derivados
+\033[31m4\033[1;m) Voltar
+\033[31m5\033[1;m) Sair
 ''')
 	opcao1 = input("\033[1;36mOpção:\033[1;m ")
 	if opcao1 == "1":
@@ -225,8 +235,10 @@ def Instalacao():
 	elif opcao1 == "2":
 		DebianDerivados()
 	elif opcao1 == "3":
-		Menu1()
+		FedoraDerivados()
 	elif opcao1 == "4":
+		Menu1()
+	elif opcao1 == "5":
 		exit(1)
 	else:
 		ComandoNaoEncontrado()
