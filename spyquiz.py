@@ -98,7 +98,7 @@ def MudarPara():
 \033[31m04\033[1;m) Nível - #4: QrCode
 \033[31m05\033[1;m) Nível - #5: Coleta de Informações, Wordlist
 \033[31m06\033[1;m) Nível - #6: Usando camadas
-\033[31m07\033[1;m) Nível - #7: Estenografia
+\033[31m07\033[1;m) Nível - #7: Esteganografia
 \033[31m08\033[1;m) Nível - #8: ASCII - Dec
 \033[31m09\033[1;m) Nível - #9: Base64
 \033[31m10\033[1;m) Nível - #10: Binário
@@ -552,7 +552,7 @@ def Bloco7():
 	q = False
 	Apresentacao()
 	print('''
-[\033[1;32m*\033[1;m] Nível - #7: Estenografia
+[\033[1;32m*\033[1;m] Nível - #7: Esteganografia
  _________________________________________________________________
 |                                                                 |
 |           A senha está dentro da imagem "spypass.png"           |
