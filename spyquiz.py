@@ -492,9 +492,10 @@ na área de Segurança da Informação/Programação.
 [YOUTUBE]: \033[32mhttps://goo.gl/RdA5fp\033[1;m
 
 
-\033[41m[#] M4GN4S3C\033[1;m
+\033[41m[#] f1v5\033[1;m
 
-[GITHUB]: \033[32mhttps://magnasec.github.io\033[1;m
+[GITHUB]: \033[32mhttps://github.com/f1v5
+[FACEBOOK]: https://www.fb.com/ygorsimoes.silva
 
 ''')
 	input("\n\033[1;36mPressione ENTER para voltar...\033[1;m ")
