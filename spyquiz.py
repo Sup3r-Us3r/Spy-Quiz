@@ -477,7 +477,7 @@ def Sobre():
 Nome do Programa:        \033[32mSpy-Quiz\033[1;m
 Data de Criação:         \033[32m04/11/2016\033[1;m\033[1;m
 Versão:                  \033[32m6.3.5\033[1;m
-Desenvolvedores:         \033[32mSup3r-Us3r\033[1;m \033[41m-\033[1;m \033[32mM4GN4S3C\033[1;m
+Desenvolvedores:         \033[32mSup3r-Us3r\033[1;m \033[41m-\033[1;m \033[32mf1v5\033[1;m
 
 
 \033[41m[#] Descrição\033[1;m
