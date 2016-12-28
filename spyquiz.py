@@ -791,7 +791,8 @@ def Bloco12():
 
 def Bloco13():
 	p = True
-	q = False
+	q1 = False
+	q2 = False
 	Apresentacao()
 	print('''
 [\033[1;32m*\033[1;m] Nível - #13: Leia o enunciado
@@ -806,12 +807,13 @@ def Bloco13():
 ''')
 	opcao1 = input("\033[1;36mOpção:\033[1;m ")
 	if opcao1 == "1":
-		while p != q:
+		while p != q1 and p != q2:
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "e59d0329d6c9e23abc8b287107ddc9281defff1af776133ed618859da59b63c943b019f7603d8344d8eb2d36851234a59c75afa70c1d317fd7676c22e3f5c71f"
-			if p != q:
+			q1 = "e59d0329d6c9e23abc8b287107ddc9281defff1af776133ed618859da59b63c943b019f7603d8344d8eb2d36851234a59c75afa70c1d317fd7676c22e3f5c71f"
+			q2 = "452f7d4966a7815f665b4f97204331e114063251ef90ac4c19732fbd54977a5c1a159b04c903e918c755bbc475ab4acf239f9e1ee8ce801329b878c53229bd41"
+			if p != q and p != q2:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
 				Bloco13()
