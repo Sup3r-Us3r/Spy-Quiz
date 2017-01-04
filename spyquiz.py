@@ -78,13 +78,13 @@ def Menu1():
 
 def Permissao():
 	Apresentacao()
-	print("\n[\033[1;32m*\033[1;m] Arquivos a serem aplicados as permissões.\n")
+	print("\n[\033[1;32m*\033[1;m] Arquivo a ser aplicado a permissão.\n")
 	sleep(3)
-	os.system("ls | grep spyquiz.py | lolcat && ls | grep url.py | lolcat")
+	os.system("ls | grep spyquiz.py | lolcat")
 	sleep(3)
 	print("\n[\033[1;32m*\033[1;m] Pronto, permissões aplicadas.")
 	sleep(3)
-	os.system("chmod +x spyquiz.py url.py")
+	os.system("chmod +x spyquiz.py")
 	Menu1()
 
 def MudarPara():
