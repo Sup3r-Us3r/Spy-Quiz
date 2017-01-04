@@ -579,7 +579,7 @@ def Bloco7():
 |                                                                 |
 |           A senha está dentro da imagem "spypass.png"           |
 |                                                                 |
-|      https://sup3r-us3r.github.io/files/niveis/spypass.png      |
+|      https://sup3r-us3r.github.io/files/niveis/spypass.jpg      |
 |_________________________________________________________________|
 
 \033[31m1\033[1;m) Responder
