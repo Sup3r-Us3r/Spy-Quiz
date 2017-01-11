@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.5
+#!/usr/bin/env python
 #coding: utf-8
 
 '''
@@ -8,12 +8,19 @@ SPY
 from time import *
 import hashlib
 import getpass
-from sys import exit
+import sys
 import os
+from platform import python_version
 
 Limpar = "clear"
 
 os.system(Limpar)
+
+if sys.version_info[0] < 3:
+	versao = python_version()
+	print("\n\033[32m Você está usando o python na versão\033[1;m \033[1m\033[31m%s\033[1;m \033[32me ela é inferior ao python3 em diante.\033[1;m" %(versao))
+	print("\033[32m Por favor rode o Spy-Quiz com a versão superior ao python2.\033[1;m\n")
+	exit(1)
 print("""\033[41m
 ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ 
 ☰       ╦  ╦╔═╗╔╦╗╔═╗╔═╗  ╦  ╔═╗ ┬        ☰ 
