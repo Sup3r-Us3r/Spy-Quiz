@@ -584,7 +584,7 @@ def Bloco7():
 [\033[1;32m*\033[1;m] Nível - #7: Esteganografia
  _________________________________________________________________
 |                                                                 |
-|           A senha está dentro da imagem "spypass.png"           |
+|           A senha está dentro da imagem "spypass.jpg"           |
 |                                                                 |
 |      https://sup3r-us3r.github.io/files/niveis/spypass.jpg      |
 |_________________________________________________________________|
