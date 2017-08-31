@@ -287,7 +287,7 @@ def Bloco2():
 |                                                                                              |
 |      Iremos apresentar um código fonte, de uma página web específica dentro do meu site      |
 |                                                                                              |
-|      Você terá que encontra o login e senha para passar, e ir pro nível seguinte.            |
+|             Você terá que encontra a senha para passar, e ir pro nível seguinte.             |
 |______________________________________________________________________________________________|
 
 \033[31m1\033[1;m) Responder
@@ -312,7 +312,7 @@ def Bloco2():
 """)
 		print("\033[31mAguarde\033[1;m\033[32m...\033[1;m")
 		sleep(2)
-		os.system("curl https://sup3r-us3r.github.io/files/niveis/nivel2.txt")
+		os.system("curl https://sup3r-us3r.github.io/spyquiz/level2.txt")
 		while p != q:
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
@@ -395,7 +395,7 @@ def Bloco4():
 [\033[1;32m*\033[1;m] Nível - #4: QrCode
  _________________________________________________________________________
 |                                                                         |
-|      QrCode = https://sup3r-us3r.github.io/files/niveis/nivel4.png      |
+|        QrCode = https://sup3r-us3r.github.io/spyquiz/level4.png         |
 |_________________________________________________________________________|
 
 \033[31m1\033[1;m) Responder
@@ -518,13 +518,8 @@ def Sobre():
 ║                                             ║
 ║ [SITE]: \033[32mhttps://sup3r-us3r.github.io\033[1;m        ║
 ║ [GITHUB]: \033[32mhttps://github.com/Sup3r-Us3r\033[1;m     ║
-║ [YOUTUBE]: \033[32mhttps://goo.gl/RdA5fp\033[1;m            ║
+║ [YOUTUBE]: \033[32mhttps://youtube.com/MagnoTutor\033[1;m   ║
 ╚═════════════════════════════════════════════╝
-╔═══════════════════════════════════════╗
-║ \033[31m⟫\033[1;m\033[33m⟫\033[1;m\033[32m⟫\033[1;m \033[1m\033[37mf1v5\033[1;m                              ║
-║                                       ║
-║ [GITHUB]: \033[32mhttps://github.com/f1v5\033[1;m     ║
-╚═══════════════════════════════════════╝
 ''')
 	input("\n\033[1;36mPressione ENTER para voltar...\033[1;m ")
 	Menu1()
@@ -539,9 +534,9 @@ def Bloco6():
 [\033[1;32m*\033[1;m] Nível - #6: Usando camadas
  _____________________________________________________________
 |                                                             |
-|          O login e senha está no arquivo "pass.psd"         |
+|         O login e senha está no arquivo "level6.psd"        |
 |                                                             |
-|      http://sup3r-us3r.github.io/files/niveis/pass.psd      |
+|        http://sup3r-us3r.github.io/spyquiz/level6.psd       |
 |_____________________________________________________________|
 
 \033[31m1\033[1;m) Responder
@@ -584,9 +579,9 @@ def Bloco7():
 [\033[1;32m*\033[1;m] Nível - #7: Esteganografia
  _________________________________________________________________
 |                                                                 |
-|           A senha está dentro da imagem "spypass.jpg"           |
+|           A senha está dentro da imagem "spypass.png"           |
 |                                                                 |
-|      https://sup3r-us3r.github.io/files/niveis/spypass.jpg      |
+|        https://sup3r-us3r.github.io/spyquiz/level7.jpg          |
 |_________________________________________________________________|
 
 \033[31m1\033[1;m) Responder
@@ -743,7 +738,7 @@ def Bloco11():
 |                                                                          |
 |      Faça um espectograma no arquivo "hex.wav" para achar a resposta     |
 |                                                                          |
-|      Para ouvir: https://sup3r-us3r.github.io/files/niveis/hex.wav       |
+|       Para ouvir: https://sup3r-us3r.github.io/spyquiz/level11.wav       |
 |__________________________________________________________________________|
 
 \033[31m1\033[1;m) Responder
@@ -992,7 +987,7 @@ def Bloco17():
 		print("\033[31mAguarde até a senha criptografada aparecer\033[1;m\033[32m...\033[1;m")
 		sleep(3)
 		print("")
-		os.system("curl https://raw.githubusercontent.com/Sup3r-Us3r/sup3r-us3r.github.io/master/files/niveis/nivel17")
+		os.system("curl https://raw.githubusercontent.com/Sup3r-Us3r/sup3r-us3r.github.io/master/spyquiz/level17.txt")
 		while p != q:
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
@@ -1065,7 +1060,7 @@ def Bloco19():
 |                                                                                                              |
 |      ... ..- .- / ... . -. .... .- / . / -- --- .-. ... . -.-. --- -.. . -. . -..- - .-.. . ...- . .-..      |
 |                                                                                                              |
-|      Para ouvir: https://sup3r-us3r.github.io/files/niveis/nivel19.wav                                       |
+|      Para ouvir: https://sup3r-us3r.github.io/spyquiz/level19.wav                                            |
 |______________________________________________________________________________________________________________|
 
 \033[31m1\033[1;m) Responder
@@ -1110,7 +1105,7 @@ def Bloco20():
 |                                                                       |
 |      Ache o login e senha que está em algum lugar do meu site ;)      |
 |                                                                       |
-|      https://sup3r-us3r.github.io/level20.html                        |
+|      https://sup3r-us3r.github.io/spyquiz/level20.html                |
 |_______________________________________________________________________|
 
 \033[31m1\033[1;m) Responder
@@ -1240,7 +1235,7 @@ def Bloco23():
 	opcao1 = input("\033[1;36mOpção:\033[1;m ")
 	if opcao1 == "1":
 		print("")
-		os.system("curl https://raw.githubusercontent.com/Sup3r-Us3r/sup3r-us3r.github.io/master/files/niveis/nivel23.atom128 | lolcat")
+		os.system("curl https://raw.githubusercontent.com/Sup3r-Us3r/sup3r-us3r.github.io/master/spyquiz/level23.txt | lolcat")
 		while p != q:
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
@@ -1268,12 +1263,12 @@ def Bloco24():
 	Apresentacao()
 	print('''
 [\033[1;32m*\033[1;m] Nível - #24: Escuro
- _____________________________________________________
-|                                                     |
-|                     Está escuro!                    |
-|                                                     |
-|      https://sup3r-us3r.github.io/level24.html      |
-|_____________________________________________________|
+ _____________________________________________________________
+|                                                             |
+|                         Está escuro!                        |
+|                                                             |
+|      https://sup3r-us3r.github.io/spyquiz/level24.html      |
+|_____________________________________________________________|
 
 \033[31m1\033[1;m) Responder
 \033[31m2\033[1;m) Pular
@@ -1308,10 +1303,10 @@ def Bloco25():
 	Apresentacao()
 	print('''
 [\033[1;32m*\033[1;m] Nível - #25: Trabalhando e desencriptando
- _____________________________________________________
-|                                                     |
-|      https://sup3r-us3r.github.io/level25.html      |
-|_____________________________________________________|
+ _____________________________________________________________
+|                                                             |
+|      https://sup3r-us3r.github.io/spyquiz/level25.html      |
+|_____________________________________________________________|
 
 \033[31m1\033[1;m) Responder
 \033[31m2\033[1;m) Pular
@@ -1346,10 +1341,10 @@ def Bloco26():
 	Apresentacao()
 	print('''
 [\033[1;32m*\033[1;m] Nível - #26: <i>
- _____________________________________________________
-|                                                     |
-|      https://sup3r-us3r.github.io/level26.html      |
-|_____________________________________________________|
+ ______________________________________________________________
+|                                                              |
+|      https://sup3r-us3r.github.io/spyquiz/level26.html       |
+|______________________________________________________________|
 
 \033[31m1\033[1;m) Responder
 \033[31m2\033[1;m) Pular
@@ -1384,10 +1379,10 @@ def Bloco27():
 	Apresentacao()
 	print('''
 [\033[1;32m*\033[1;m] Nível - #27: Nazca Lines
- _____________________________________________________
-|                                                     |
-|      https://sup3r-us3r.github.io/level27.html      |
-|_____________________________________________________|
+ _____________________________________________________________
+|                                                             |
+|      https://sup3r-us3r.github.io/spyquiz/level27.html      |
+|_____________________________________________________________|
 
 \033[31m1\033[1;m) Responder
 \033[31m2\033[1;m) Pular
@@ -1422,10 +1417,10 @@ def Bloco28():
 	Apresentacao()
 	print('''
 [\033[1;32m*\033[1;m] Nível - #28: Matrix
- _____________________________________________________
-|                                                     |
-|      https://sup3r-us3r.github.io/level28.html      |
-|_____________________________________________________|
+ _____________________________________________________________
+|                                                             |
+|      https://sup3r-us3r.github.io/spyquiz/level28.html      |
+|_____________________________________________________________|
 
 \033[31m1\033[1;m) Responder
 \033[31m2\033[1;m) Pular
@@ -1460,10 +1455,10 @@ def Bloco29():
 	Apresentacao()
 	print('''
 [\033[1;32m*\033[1;m] Nível - #29: Adam Smith
- _____________________________________________________
-|                                                     |
-|      https://sup3r-us3r.github.io/level29.html      |
-|_____________________________________________________|
+ _____________________________________________________________
+|                                                             |
+|      https://sup3r-us3r.github.io/spyquiz/level29.html      |
+|_____________________________________________________________|
 
 \033[31m1\033[1;m) Responder
 \033[31m2\033[1;m) Pular
@@ -1498,10 +1493,10 @@ def Bloco30():
 	Apresentacao()
 	print('''
 [\033[1;32m*\033[1;m] Nível - #30: The End
- _____________________________________________________
-|                                                     |
-|      https://sup3r-us3r.github.io/level30.html      |
-|_____________________________________________________|
+ _____________________________________________________________
+|                                                             |
+|      https://sup3r-us3r.github.io/spyquiz/level30.html      |
+|_____________________________________________________________|
 
 \033[31m1\033[1;m) Responder
 \033[31m2\033[1;m) Pular
@@ -1513,7 +1508,7 @@ def Bloco30():
 			p = input("\n\033[1;36mResposta: \033[1;m")
 			p = hashlib.sha512(p.encode('utf-8'))
 			p = p.hexdigest()
-			q = "723b6efe07b4f91aee5e44b98bdde311537aafee5fb04d26e0578b3270f86b2e642919ca0c5293ebdeb4a9b57443f21c65f9adb0fb11de33ca879f6babc4168d"
+			q = "30161ddbc5c1a80f90e37350b3e0f937902330ed9a4431143dd02690ddfe343eac7abd7066be22959bfeed91870d5ac85f3fe5f89f2d5b87c939f71ae4bbc121"
 			if p != q:
 				print("\n[\033[1;91m!\033[1;m] Resposta incorreta.")
 				input("\n\033[1;36mPressione ENTER para tentar novamente...\033[1;m ")
